@@ -1,4 +1,6 @@
-const socket = io('http://localhost:8000');
+var http = require('http');
+const io = require('socket.io');
+const socket = io.connect('http://localhost:8000', {reconnect: true});
 const form = document.querySelector('#send-container');
 const messageInput = document.querySelector('#messageInp')
 const messageCont = document.querySelector('.container');
