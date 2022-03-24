@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "description": "this is testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon login.js"
+  },
+  "author": "nayem",
+  "license": "ISC"
+}

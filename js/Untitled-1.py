@@ -1,0 +1,2 @@
+var="bekar"
+    print("var")
